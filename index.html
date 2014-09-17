@@ -2,23 +2,16 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Repaso de Bootstrap - Septiembre 2014</title>
+    <title>Ejercicio de Bootstrap - jQuery</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ejercicio de Repaso con el Sistema Boostrap" />
-    <meta name="keywords" content="Ejercicio de Repaso,Boostrap" />
-    <meta name="author" content="Alumnos Curso de Confección y Publicación de Páginas Web" />
+    <meta name="description" content="Ejercicio del Sistema Boostrap junto con jQuery" />
+    <meta name="keywords" content="Ejercicio, Boostrap, jQuery" />
+    <meta name="author" content="Julio Sanquis" />
 
     <!-- Bootstrap & Custom CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/base.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +23,40 @@
   </head>
   <body>
 	<!-- Contenido -->
+	<div class="container">
 	
+		<header class="row">
+			<h1>Ejercicio de Bootstrap y jQuery</h1>
+		</header>
+
+		<section class="row">
+			<article id="art1" class="col-xs-4">
+				<hgroup>
+					<h3>Título 01</h3>
+				</hgroup>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro atque perferendis dolorum labore architecto doloribus delectus velit sunt odit, alias commodi sint ipsum tenetur praesentium?</p>
+				<button id="btn1" class="btn btn-primary"></button>
+			</article>
+			<article id="art2" class="col-xs-4">
+				<hgroup>
+					<h3>Título 02</h3>
+				</hgroup>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat id corrupti et, incidunt magni enim, quas iure culpa laudantium, quos veniam minima ipsa. Unde, similique!</p>
+				<button id="btn2" class="btn btn-primary"></button>
+			</article>
+			<article id="art3" class="col-xs-4">
+				<hgroup>
+					<h3>Título 03</h3>
+				</hgroup>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aut consequuntur voluptatibus, natus unde est dicta recusandae praesentium! Nisi, illum sint quaerat nemo eius enim!</p>
+				<button id="btn3" class="btn btn-primary"></button>
+			</article>
+		</section>
+		<br />
+		<br />
+		<button id="btn4" class="btn btn-primary">Cambios</button>
+
+	</div>
 
   	<!-- Fin de Contenido / Comienza carga de ficheros .js -->
 
@@ -38,5 +64,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery_base.js"></script>
   </body>
 </html>
