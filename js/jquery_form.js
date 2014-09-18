@@ -28,7 +28,7 @@ $(document).on('ready', function(){
 	});
 
 	$('#telefono').keyup(function(){
-		if( isNaN( $(this).val() ) || $(this).val().length == 9 ){
+		if( !isNaN( $(this).val() ) || $(this).val().length == 9 ){
 			$('.error').fadeOut();			
 			return false;
 		}		
