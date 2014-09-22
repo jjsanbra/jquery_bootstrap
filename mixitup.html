@@ -24,7 +24,65 @@
   <body>
 	<!-- Contenido -->
 	<div class="container">
-	
+
+	<nav class="row">
+		<ul>
+			<li>
+				<a href="#contenedor" class="btn btn-default filter active" data-filter="all">Todo</a>
+			</li>
+			<li>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".lacteos">Lacteos</a>
+			</li>
+			<li>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".carnes">Carnes</a>
+			</li>
+			<li>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".panaderia">Panadería</a>
+			</li>
+			<li>
+				<a href="#contenedor" class="btn btn-success sort" data-sort="random">Aleatorio</a>
+			</li>
+		</ul>
+	</nav>
+
+	<section id="contenedor" class="row">
+		<article class="mix lacteos">
+			<h3>Leche</h3>
+		</article>
+
+		<article class="mix carnes">
+			<h3>Cerdo</h3>
+		</article>
+
+		<article class="mix panaderia">
+			<h3>Pan de Molde</h3>
+		</article>
+
+		<article class="mix lacteos">
+			<h3>Nata</h3>
+		</article>
+
+		<article class="mix lacteos">
+			<h3>Mantequilla</h3>
+		</article>
+
+		<article class="mix carnes">
+			<h3>Ternera</h3>
+		</article>
+
+		<article class="mix panaderia">
+			<h3>Bollos</h3>
+		</article>
+
+		<article class="mix carnes">
+			<h3>Aves</h3>
+		</article>
+
+		<article class="mix panaderia">
+			<h3>Pistola</h3>
+		</article>
+
+	</section>
 		
 
 
@@ -38,6 +96,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery_mixitup.js"></script>    
    
   </body>
 </html>
