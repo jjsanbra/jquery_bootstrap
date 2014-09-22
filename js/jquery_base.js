@@ -21,7 +21,8 @@ $(document).on('ready', function(){
 
 	$('#btn3').on('click', function(){
 		$('#art3 p').toggleClass('color');
-		$(this).toggleClass('btn-danger')
+		$(this).toggleClass('btn-danger');
+		$(this).removeClass('btn-primary');
 	});
 
 
