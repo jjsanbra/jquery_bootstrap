@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/packery.css">
+    <link rel="stylesheet" href="css/adipoli.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,33 +96,74 @@
 
 		<br />
 		<br />
+		<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Acceso de Usuarios</button>
+		<div id="myModal" class="modal fade">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+		        <h4 class="modal-title">Acceso Usuarios</h4>
+		      </div>
+		      <div class="modal-body">
+		        <form id="formulario" class="form" action="">
+					<hgroup>
+						<h2>Formulario de Contacto</h2>
+					</hgroup>
+
+					<div class="form-group">
+						<label>Usuario: <span class="required">*</span></label>
+		    			<input type="text" id="nombre" class="form-control"  placeholder="Escriba su nombre"/>
+					</div>
+					
+					<div class="form-group">
+						<label>Contraseña:</label>
+		    			<input type="text" id="apellidos" class="form-control"  placeholder="Escriba sus Apellidos"/>
+					</div>
+										
+					<input type="submit" id="submit" class="btn btn-danger" value="Enviar Formulario"/>
+					
+					<hgroup>
+						<h4>Nota:</h4>
+					</hgroup>
+					<p><span class="required">*</span> Los campos señalados son obligatorios.</p>
+
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	<aside class="row">
+		<figure class="col-xs-4">
+			<img id="image1" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+		<figure class="col-xs-4">
+			<img id="image2" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+		<figure class="col-xs-4">
+			<img id="image3" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+		<figure class="col-xs-4">
+			<img id="image4" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+		<figure class="col-xs-4">
+			<img id="image5" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+		<figure class="col-xs-4">
+			<img id="image6" class="img-responsive" src="http://lorempixel.com/300/400" alt="prueba"/>
+		</figure>
+	</aside>
+
+
+
+
+
 
 	</div>
-
-	<h1>Packery demo - Draggabilly</h1>
-	<div class="packery">
-		<div class="item"></div>
-		<div class="item h4"></div>
-		<div class="item w2"></div>
-		<div class="item"></div>
-		<div class="item h2"></div>
-		<div class="item w2 h2"></div>
-		<div class="item"></div>
-		<div class="item w4"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item h4"></div>
-		<div class="item w2"></div>
-		<div class="item"></div>
-		<div class="item h2"></div>
-		<div class="item w2 h2"></div>
-		<div class="item"></div>
-		<div class="item w4"></div>
-		<div class="item"></div>
-		<div class="item"></div>
-	</div>
-
 
 
   	<!-- Fin de Contenido / Comienza carga de ficheros .js -->
@@ -134,7 +175,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery_base.js"></script>
     <script src="js/jquery_form.js"></script>
-    <script src="js/jquery_packery.js"></script>
-    <script src="js/packery.js"></script>
+    <script src="js/jquery.adipoli.min.js"></script>
+    <script src="js/jquery_galeria.js"></script>
+   
   </body>
 </html>
