@@ -12,7 +12,9 @@
     <!-- Bootstrap & Custom CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css">
-
+    <link rel="stylesheet" href="css/adipoli.css">
+    <link rel="stylesheet" href="css/magnifyme.css">
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,62 +27,113 @@
 	<!-- Contenido -->
 	<div class="container">
 
+	<div class="magnifyMe">
+        <div class="lupa"></div>
+    </div>
+
 	<nav class="row">
 		<ul>
 			<li>
-				<a href="#contenedor" class="btn btn-default filter active" data-filter="all">Todo</a>
+				<a href="#contenedor" class="btn btn-default filter active" data-filter="all">Todas las Fotografías</a>
 			</li>
 			<li>
-				<a href="#contenedor" class="btn btn-primary filter" data-filter=".lacteos">Lacteos</a>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".deportes">Deportes</a>
 			</li>
 			<li>
-				<a href="#contenedor" class="btn btn-primary filter" data-filter=".carnes">Carnes</a>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".naturaleza">Naturaleza</a>
 			</li>
 			<li>
-				<a href="#contenedor" class="btn btn-primary filter" data-filter=".panaderia">Panadería</a>
+				<a href="#contenedor" class="btn btn-primary filter" data-filter=".abstracto">Abstracto</a>
 			</li>
 			<li>
-				<a href="#contenedor" class="btn btn-success sort" data-sort="random">Aleatorio</a>
+				<a href="#contenedor" class="btn btn-success sort" data-sort="random">Aleatorias</a>
 			</li>
 		</ul>
 	</nav>
 
 	<section id="contenedor" class="row">
-		<article class="mix lacteos">
-			<h3>Leche</h3>
+		<article class="mix deportes">
+			<hgroup>
+				<h3>Deporte 1</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/sports/1" alt="Deporte 1"/>
+			</figure>
 		</article>
 
-		<article class="mix carnes">
-			<h3>Cerdo</h3>
+		<article class="mix naturaleza">
+			<hgroup>
+				<h3>Naturaleza 1</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/nature/1" alt="Naturaleza 1"/>
+			</figure>
 		</article>
 
-		<article class="mix panaderia">
-			<h3>Pan de Molde</h3>
+		<article class="mix abstracto">
+			<hgroup>
+				<h3>Abstracto 1</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/abstract/1" alt="Abstracto 1"/>
+			</figure>
 		</article>
 
-		<article class="mix lacteos">
-			<h3>Nata</h3>
+		<article class="mix deportes">
+			<hgroup>
+				<h3>Deporte 2</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/sports/2" alt="Deporte 2"/>
+			</figure>
 		</article>
 
-		<article class="mix lacteos">
-			<h3>Mantequilla</h3>
+		<article class="mix naturaleza">
+			<hgroup>
+				<h3>Naturaleza 2</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/nature/2" alt="Naturaleza 2"/>
+			</figure>
 		</article>
 
-		<article class="mix carnes">
-			<h3>Ternera</h3>
+		<article class="mix abstracto naturaleza">
+			<hgroup>
+				<h3>Abstracto 2</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/abstract/2" alt="Abstracto 2"/>
+			</figure>
 		</article>
 
-		<article class="mix panaderia">
-			<h3>Bollos</h3>
+		<article class="mix deportes">
+			<hgroup>
+				<h3>Deporte 3</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/sports/3" alt="Deporte 3"/>
+			</figure>
 		</article>
 
-		<article class="mix carnes">
-			<h3>Aves</h3>
+		<article class="mix naturaleza">
+			<hgroup>
+				<h3>Naturaleza 3</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/nature/3" alt="Naturaleza 3"/>
+			</figure>
 		</article>
 
-		<article class="mix panaderia">
-			<h3>Pistola</h3>
+		<article class="mix abstracto">
+			<hgroup>
+				<h3>Abstracto 3</h3>
+			</hgroup>
+			<figure>
+				<img src="http://lorempixel.com/100/100/abstract/3" alt="Abstracto 3"/>
+			</figure>
 		</article>
+
+		
 
 	</section>
 		
@@ -94,10 +147,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/jquery_mixitup.js"></script>    
+    <script src="js/jquery.adipoli.min.js"></script>
+    <script src="js/magnifyme.js"></script>
+    <script src="js/jquery_plugins.js"></script>    
    
   </body>
 </html>
